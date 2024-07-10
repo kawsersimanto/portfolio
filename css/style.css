@@ -8,6 +8,7 @@
 
 body {
   font-family: "Azeret Mono", monospace;
+  font-size: 16px;
 }
 
 a {
@@ -23,6 +24,7 @@ button {
 /* containers  */
 
 .container,
+.container-lg,
 .container-md {
   margin: 0 auto;
 }
@@ -33,6 +35,10 @@ button {
 
 .container-md {
   max-width: 850px;
+}
+
+.container-lg {
+  max-width: 940px;
 }
 
 /* colors  */
@@ -67,6 +73,7 @@ button {
   padding: 21px 24px;
   border-radius: 8px;
   color: white;
+  background-color: #0d1321;
 }
 
 .btn-fill,
@@ -108,4 +115,44 @@ button {
   font-family: "Azeret Mono";
   font-size: 28px;
   font-weight: 800;
+}
+
+/* banner  */
+
+.banner {
+  padding: 26px 45px;
+  background-image: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-image {
+  max-width: 240px;
+}
+
+.banner-title {
+  color: #0d1321;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+}
+
+.banner-text {
+  margin-top: 24px;
+  margin-bottom: 32px;
+
+  opacity: 0.7;
+  color: #0d1321;
+  /* text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400; */
+  line-height: 26px; /* 162.5% */
 }
