@@ -1,0 +1,88 @@
+/* gloabl styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* containers  */
+
+.container,
+.container-md {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.container-md {
+  max-width: 850px;
+}
+
+/* colors  */
+
+.bg-black {
+  background-color: #0d1321;
+}
+
+.text-black {
+  color: #0d1321;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-light-orange {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.bg-light-blue {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.bg-light-yellow {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+/* button styles  */
+
+.btn-fill {
+  padding: 21px 24px;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-fill,
+.btn-outline,
+.btn-outline-sm {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-outline,
+.btn-outline-sm {
+  color: #0d1321;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+}
+
+.btn-outline {
+  padding: 17px 24px;
+  border-radius: 8px;
+}
+
+.btn-outline-sm {
+  padding: 10px 20px;
+}
